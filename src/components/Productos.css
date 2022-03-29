@@ -1,0 +1,46 @@
+main {
+      float: right;
+      width: 76%;
+      text-align: center;
+      margin-top: 50px;
+}
+
+
+
+.content-product {
+float: left;
+margin: 1.5%;
+border: 1px solid #d27825;
+padding: 20px;
+width: 27.5%;
+text-align: left;
+}
+
+
+
+
+
+.resaltado {
+    color:#d27825;
+    font-weight: bold;
+
+    
+}
+
+
+
+h2 {
+        text-transform: uppercase;
+        color: #d27825;
+        margin-bottom: 35px;
+}
+
+button {
+    background: #d27825;
+    color: #FFF;
+    padding: 13px 0;
+    width: 100%;
+    border: 0;
+    margin: 20px 0 0;
+    border-radius: 5px;
+}

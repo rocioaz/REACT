@@ -1,0 +1,18 @@
+aside {
+float: left;
+width: 20%;
+margin: 2%;
+padding: 20px;
+background: #87868a;
+color: #FFF;
+height: 636px;
+margin-top: 190px;
+}
+
+
+aside a {
+   color: #FFF;
+   text-decoration: none;
+   margin: 6px 0;
+   display: block;
+}

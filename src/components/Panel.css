@@ -1,0 +1,16 @@
+.totales {
+    float: left;
+    width: 70%;
+    margin-top: 190px;
+
+}
+
+
+.panel {
+    float: left;
+    width: 29%;
+    margin: 0 2%;
+    padding: 20px;
+    border: 6px double #87868a;
+    text-align: center;
+}

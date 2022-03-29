@@ -1,0 +1,10 @@
+.imagen {
+float: left;
+width: 67%;
+margin-top: 50px;
+margin-left: 21px;
+}
+
+.imagen img {
+    width: 100%;
+}

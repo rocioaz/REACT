@@ -44,14 +44,18 @@ class Usuarios extends React.Component {
                 key = {
                     item.id
                 } >
-                
+                <img src= {"/img/usuarios/" + item.image} width= "30%"  /> 
+                < br />
+
                 <span className = "resaltado"> Id: </span> {
                     item.id
-                }, < br / >
-                 <span className = "resaltado" > Nombre: </span> {
+                }, < br/>
+                 
+                <span className = "resaltado" > Nombre: </span> {
                  item.userName
-                 },
-                < br/> <span className = "resaltado" > Email: </span> {
+                 },< br/>
+
+                <span className = "resaltado" > Email: </span> {
                     item.email
                 },
             < br / > <button> Ver detalle </button> 

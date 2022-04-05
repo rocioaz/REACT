@@ -11,6 +11,7 @@ class Productos extends React.Component {
             items: [],
             DataisLoaded: false
         };
+        this.props = props;
     }
 
     // ComponentDidMount is used to
@@ -26,6 +27,12 @@ class Productos extends React.Component {
                 
             })
     }
+
+    onClick = () => {
+        this.props.navigate("/api/products/2");
+    }
+
+
     render() {
         const {
             DataisLoaded,
@@ -43,16 +50,28 @@ class Productos extends React.Component {
                 div className = "content-product"
                 key = {
                     item.id
+                   
                 } >
+                <img src= {"/img/productos/" + item.image} width= "50%"/> 
+                    
+                 < br / >
+                 < br / >
+               
                 <span className = "resaltado"> Id: </span> {
                     item.id
                 }, < br / >
                  <span className = "resaltado" > Nombre: </span> {
                  item.product_name
-                 },
-                < br/> <span className = "resaltado" > Descripción: </span> {
-                    item.product_description 
-                } < br / > <button> Ver detalle </button> </div >
+                 },< br / >
+
+                 <span className = "resaltado" > Precio: </span> {
+                    item.price
+                    }, < br / >
+                
+                <span className = "resaltado" > Categoria: </span> {
+                    item.category
+                }
+                < br / > <button onClick={this.onClick}> Ver detalle </button> </div >
             ))
         } </main>
     );
